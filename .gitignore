@@ -1,0 +1,23 @@
+# Java build output and temporary verification files
+*.class
+/bin/
+/out/
+/build/
+/target/
+/verification-*/
+
+# Local IDE metadata; retain shared VS Code Java project settings
+/.idea/
+*.iml
+/.vscode/*
+!/.vscode/settings.json
+/.classpath
+/.project
+/.settings/
+
+# Operating system and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+hs_err_pid*
